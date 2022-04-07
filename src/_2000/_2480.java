@@ -12,9 +12,7 @@ public class _2480 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
 		String[] arr = { br.readLine().replace(" ", "") };
-
 		char[] strArr = arr[0].toCharArray();
-
 		HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
 
 		for (char c : strArr) {
